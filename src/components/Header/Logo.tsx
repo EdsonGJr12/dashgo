@@ -3,9 +3,9 @@ import { Text } from "@chakra-ui/react"
 export function Logo() {
     return (
         <Text
-            fontSize={["2xl", "3xl"]}
+            fontSize={["2xl", "3xl", "4xl"]}
             fontWeight="bold"
-            letterSpacings="tight"
+            letterSpacing="tight"
             w="64"
         >
             DashGo

@@ -24,7 +24,7 @@ const createUserFormSchema = yup.object().shape({
     password_confirmation: yup.string().oneOf([
         null, yup.ref('password')
     ], 'As senhas precisam ser iguais')
-  })
+})
 
 export default function CreateUser() {
 
